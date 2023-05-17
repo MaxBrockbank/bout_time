@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: #2f695f;
+  color: #fff;
+  height: 100vh;
+  transition: 0.35s ease-in;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.bars {
+  display: flex;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  gap: 15px;
+  transition: all 0.25s ease-in;
+}
+
+.link:hover {
+  background-color: #1e453e;
+}
+
+.active {
+  background-color: #1e453e;
+}
